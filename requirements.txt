@@ -1,5 +1,6 @@
 pandas
 numpy
+<<<<<<< HEAD
 seaborn
 matplotlib
 scikit-learn
@@ -8,3 +9,6 @@ xgboost
 #-e .
 
 
+=======
+seaborn
+>>>>>>> 25dec95a0f993fff56110ca504bf289b413b0303

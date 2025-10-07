@@ -1,5 +1,9 @@
 import sys
+<<<<<<< HEAD
 from logger import logging
+=======
+import logging
+>>>>>>> 25dec95a0f993fff56110ca504bf289b413b0303
 
 def error_message_detail(error, error_detail: sys):
     _, _, exc_tb = error_detail.exc_info()
@@ -14,3 +18,17 @@ class CustomException(Exception):
         
     def __str__(self):
         return self.error_message
+<<<<<<< HEAD
+=======
+
+if __name__ == "__main__":
+    try:
+        a = 1 / 0
+    except Exception as e:
+        logging.info("Divide by zero exception occurred")
+        try:
+            raise CustomException(str(e), sys)
+        except CustomException as custom_e:
+            print(f"Custom exception caught: {custom_e}")
+            print("Program continues running...")
+>>>>>>> 25dec95a0f993fff56110ca504bf289b413b0303
