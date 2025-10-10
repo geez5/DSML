@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+prefix=c:/Users/SHARM/Desktop/DSMLprojects/venv/Library 
+=======
+prefix=C:/Users/SHARM/Desktop/DSMLprojects/venv/Library 
+>>>>>>> 25dec95a0f993fff56110ca504bf289b413b0303
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Requires: libssl libcrypto
+<<<<<<< HEAD
+Version: 3.5.4 
+=======
+Version: 3.0.17 
+>>>>>>> 25dec95a0f993fff56110ca504bf289b413b0303
